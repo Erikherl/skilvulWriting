@@ -1,4 +1,4 @@
-# Writing & Presentation Week 1 - 6
+# Writing & Presentation Module 1 - 6
 
 ## 1. Module-1 Unix Command Line
 
@@ -452,4 +452,133 @@ Jadi, begitu caranya menerapkan algoritma ke pseudocode dan dijadikan ke bahasa 
 
 ![Gambar Looping Flowchart](./5%20Algorithm/Gambar%20Algoritma%20Looping.png)
 *Gambar 52. Flowchart Looping*
+
+<br>
+
+---
+
+## 6. Module-6 Javascript
+
+### **Pengertian**
+
+Javascript adalah bahasa satu satunya yang menggunakan bahasa pemrograman dari pembuatan website sebelumnya. Pada HTML dan CSS hanya berupa untuk tampilan, tidak adanya *syntax* yang menunjukkan sebuah perintah. Nah, pada Javascript inilah yang menjadi kunci utama dalam membuat sebuah website memiliki fungsi yang bervariasi
+
+### **Penerapan**
+
+Javascript dapat dilakukan pada browser kita, saat ini akan digunakan Google Chrome. Nah, beberapa *syntax* yang dapat digunakan ketika menggunakan Javascript adalah sebagai berikut
+
+- alert
+
+    ![Gambar Syntax Alert](./6%20Javascript/Gambar%20Javascript%20Syntax.png)
+    *Gambar 53. Syntax Alert*
+
+    Alert digunakan untuk memunculkan sebuah pesan atau sebuah *pop-up* untuk memberitahu sebuah pesan
+
+- prompt
+
+    ![Gambar Syntax Prompt](./6%20Javascript/Gambar%20Javascript%20Syntax2.png)
+    *Gamber 54. Syntax Prompt*
+
+    Prompt digunakan untuk memasukkan sebuah input yang nantinya dapat disimpan sebagi sebuah value
+
+- confirm
+
+    ![Gambar Syntax Confirm](./6%20Javascript/Gambar%20Javascript%20Syntax3.png)
+    *Gambar 55. Syntax Confirm*
+
+    Confirm digunakan untuk mengkonfirmasi sebuah pesan yang ingin dimunculkan
+
+
+Tipe - tipe data Javascript
+
+![Gambar Tipe Data Javascript](./6%20Javascript/Gambar%20Javascript%20Tipe%20Data.png)
+*Gambar 56. Tipe Data Javascript*
+
+Jadi, terdapat berbagai tipe data yang disediakan javascript, seperti number yang mencakup angka, dan desimal. Kemudian, string mencakup semua huruf yang diapit dengan tanda petik (""), ada juga object yang menampung berbagai tipe data. Selain itu, ada data yang sifatnya null yang artinya kosong atau tidak ada isinya. Ada boolean yang isi nilainya hanya true atau false. Sisanya adalah tipe data undefined, yang artinya nilai itu tidak terdefenisikan atau belum dideklarasikan
+
+
+Terdapat juga bentuk operator dalam Javascript
+
+![Gambar Operator](./6%20Javascript/Gambar%20Javascript%20Operator.png)
+*Gambar 57. Operator*
+
+Dapat dilihat dari gambar 57, operator ada banyak. 
+- Untuk variabel Nama menggunakan operator *Assignment* yaitu "="
+- Variabel Matematika menggunakan operator perhitungan atau *Mathematical Assignment*, yaitu "+" dan "%" 
+- Hasil console log berupa boolean, dari operator tersebut menggunakan *Comparison*, yaitu "=="
+- Pada Conditional terakhir menggunakan operator *Logical* operator, yaitu "&&"
+
+
+### **Conditional**
+
+*Conditional* merupakan suatu kondisi yang menyatakan sesuatu, biasanya ini adalah *statement* percabangan. Contohnya dapat kita lihat pada hasil dari sebuah nilai boolean, untuk pengecekan nilai tersebut maka diperlukan sebuah kondisi
+
+Beberapa tipe dalam menentukan kondisi, sebagai berikut:
+
+- If... Else...
+
+    ![Gambar Statement If](./6%20Javascript/Gambar%20Javascript%20Conditional%20If.png)
+    *Gambar 58. Conditional If*
+
+    Contoh biasa dalam penerapan if akan dijalankan bila kondisi pertama benar, dan else akan dijalankan apabila kondisi yang pertama salah
+
+    Alternatif lain dapat menggunakan else if... untuk kasus yang dapat dipastikan kondisinya
+
+- Truthy and Falsy
+
+    ![Gambar Statement Truthy](./6%20Javascript/Gambar%20Javascript%20Conditional%20Truthy.png)
+    *Gambar 59. Conditional Truthy dan falsy*
+
+    Gambar 59 menunjukkan Truthy yang artinya apapun variabel jika dia memiliki nilai, maka otomtasi dia akan bernilai true. Disini kata kuncinya adalah variabel memiliki sebuah nilai
+
+- Switch Case
+
+    ![Gambar Statement Switch](./6%20Javascript/Gambar%20Javascript%20Conditional%20Switch.png)
+    *Gambar 60. Conditional Switch Case*
+
+    Gambar 60 adalah switch, dimana setiap case yang diberikan perlu diberikan `break` dengan tujuan setelah kondisi tersebut berjalan, dia berhenti dari kondisi tersebut. Kemudian, terdapat `default` yang artinya apabila semua kondisi tidak terjalankan, maka default akan mengambil alih
+
+- Ternary
+
+    ![Gambar Statement Ternary](./6%20Javascript/Gambar%20Javascript%20Conditional%20Ternary.png)
+    *Gambar 61. Ternary Condition*
+
+    Gambar 61 menunjukkan sebuah *conditional* singkat dibandingkan menggunakan if... else..., disini pada kondisi setelah "?" yang artinya menanyakan apabila benar maka jalankan kondisi pertama, dan jika salah akan menjalankan kondisi selanjutnya yang dipisah dengan *syntax* ":"
+
+
+### **Looping**
+
+*Looping* digunakan untuk mengulang suatu kondisi hingga tercapai tujuannya. Ada beberapa cara untuk penggunaan *looping* pada Javascript.
+
+- Manual Looping
+
+    ![Gambar Looping Manual](./6%20Javascript/Gambar%20Javascript%20Looping%20Manual.png)
+    *Gambar 62. Looping Manual*
+
+    Sangat tidak disarankan karena membutuhkan banyak baris dan tidak efisien dalam penerapan secara langsung
+
+- For Loop
+
+    ![Gambar Looping For](./6%20Javascript/Gambar%20Javascript%20Looping%20For.png)
+    *Gambar 63. Looping For*
+
+    Untuk looping ini disarankan untuk yang diketahui berapa kali harus mengulang
+
+- While Loop
+
+    ![Gambar Looping While](./6%20Javascript/Gambar%20Javascript%20Looping%20While.png)
+    *Gambar 64. Looping While*
+
+    Looping ini digunakan untuk apabila kita tidak mengetahui berapa jumlah yang perlu diulang, anggap saja kita ingin menampilkan jumlah tamu yang mendaftar. Pastinya kita tidak tahu jumlah yang pasti berapa
+
+- Do While
+
+    Sama seperti gambar 64, namun dia lebih pada melakukan terlebih dahulu perintahnya, baru melakukan pengecekan apakah kondisi tersebut sudah memenuhi atau belum
+
+- Nested Loop
+
+    ![Gambar Nest Looping by Skilvul](./6%20Javascript/Gambar%20Javascript%20Looping%20Pinjem%20Nested.png)
+    *Gambar 65. Nested Looping*
+
+    Looping ini digunakan seminimal mungkin, karena looping seperti ini akan menimbulkan beberapa konflik apabila datanya terlalu banyak. Apalagi looping ini berjalan dalam satu kesatuan sehingga apabila ada satu data error, maka akan menimbulkan masalah seterusnya
 
